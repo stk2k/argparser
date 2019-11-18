@@ -6,7 +6,7 @@ require_once __DIR__ . '/include/autoload.php';
 use Stk2k\ArgParser\ArgParser;
 
 try{
-    $args = ArgParser::parse(null);
+    $args = ArgParser::parse();
     print_r($args);
 }
 catch(Throwable $e){
