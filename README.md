@@ -22,6 +22,8 @@ Parser for command line options
 ## Parameters
 
 ```php
+use Stk2k\ArgParser\ArgParser;
+
 ArgParser::parse(array $args = null, array $required =[], array $defaults = []);
 ```
 
