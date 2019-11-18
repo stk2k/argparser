@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         syntaxCheck="false"
+         forceCoversAnnotation="false"
+         verbose="true"
+         stopOnError="false"
+         stopOnFailure="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false"
+         stopOnRisky="false"
+         bootstrap="./bootstrap.php"
+>
+    <testsuites>
+        <testsuite name="Calgamo/Getopt Tests">
+            <directory>.</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../src</directory>
+            <exclude>
+                <directory>../sample</directory>
+                <directory>../vendor</directory>
+                <directory suffix="Interface.php">./src</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>

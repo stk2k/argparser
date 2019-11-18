@@ -1,0 +1,27 @@
+{
+  "name": "stk2k/argparser",
+  "description": "YParser for command line options",
+  "keywords": ["PHP","PHP7","arg parser","getopt","command line"],
+  "homepage": "https://github.com/stk2k/argparser",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Katsuki Shuto",
+      "email": "stk2k@sazysoft.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.3.0",
+    "php-coveralls/php-coveralls": "^2.0",
+    "calgamo/test": "~0.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stk2k\\ArgParser\\": "src/"
+    }
+  }
+}
