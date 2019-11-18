@@ -36,6 +36,8 @@ ArgParser::parse(array $args = null, array $required =[], array $defaults = []);
 ### [01] Parse command line
 
 ```php
+use Stk2k\ArgParser\ArgParser;
+
 $args = ArgParser::parse(null);     // script.php a b -c --favorite-food="Fried potato"
 print_r($args);
 //Array
