@@ -1,6 +1,6 @@
 {
   "name": "stk2k/argparser",
-  "description": "YParser for command line options",
+  "description": "Parser for command line options",
   "keywords": ["PHP","PHP7","arg parser","getopt","command line"],
   "homepage": "https://github.com/stk2k/argparser",
   "type": "library",
