@@ -19,13 +19,11 @@ Parser for command line options
 - long options: --a-key value/--a-key=value returns associative array(['a-key'=>value])
 - ordered options: "command a b c" returns ordered array([a, b, c])
 
-## Description
+## Parameters
 
 ```php
 ArgParser::parse(array $args = null, array $required =[], array $defaults = []);
 ```
-
-### Parameters
 
 | arg name       | explain |
 | ---------------|----------------|
