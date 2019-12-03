@@ -1,10 +1,10 @@
 <?php
 namespace Calgamo\Getopt;
 
-use Calgamo\Test\TestCase\PhpUnitTestCase;
+use PHPUnit\Framework\TestCase;
 use Stk2k\ArgParser\ArgParser;
 
-class ArgParserTest extends PhpUnitTestCase
+class ArgParserTest extends TestCase
 {
     /**
      * @throws
