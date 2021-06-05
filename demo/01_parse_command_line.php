@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-require_once __DIR__ . '/include/autoload.php';
+require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-use Stk2k\ArgParser\ArgParser;
+use stk2k\argparser\ArgParser;
 
 try{
     $args = ArgParser::parse();

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Stk2k\ArgParser;
+namespace stk2k\argparser;
 
 use InvalidArgumentException;
 

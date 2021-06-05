@@ -5,3 +5,6 @@ vendor/*
 build/*
 coverage/*
 sample/cache/*
+test/files/cache/*
+test/cache/*
+.phpunit.result.cache

@@ -36,7 +36,7 @@ ArgParser::parse(array $args = null, array $required =[], array $defaults = []);
 ### [01] Parse command line
 
 ```php
-use Stk2k\ArgParser\ArgParser;
+use stk2k\argparser\ArgParser;
 
 $args = ArgParser::parse();     // script.php a b -c --favorite-food="Fried potato"
 print_r($args);
@@ -52,7 +52,7 @@ print_r($args);
 
 ## Requirement
 
-PHP 7.1 or later
+PHP 7.2 or later
 
 ## Installing stk2k/argparser
 
